@@ -10,6 +10,11 @@ if __name__ == '__main__':
     print("============================")
     print("  SISTEM REKOMENDASI FILM  ")
     print("============================")
+
+    # Tambahan fitur genre tersedia
+    available_genres = sorted(set(film['genre'].title() for film in data))
+    print("\nGenre tersedia:", ", ".join(available_genres))
+
     genre = input("Masukkan genre favorit: ")
     
     try:
