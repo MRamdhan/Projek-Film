@@ -33,8 +33,8 @@ rekomendasi_film/
 
 ## ▶️ Cara Menjalankan
 
-1. Buka terminal / CMD
-2. Masuk ke folder `rekomendasi_film`
+1. Buka terminal / CMD  
+2. Masuk ke folder `rekomendasi_film`  
 3. Jalankan perintah:
 
 ```bash
@@ -46,6 +46,13 @@ Jika belum install library matplotlib untuk visualisasi:
 ```bash
 pip install matplotlib
 ```
+
+Setelah itu, memasukkan Genre dan Rating:
+
+- **Genre**, misalnya: `Aksi`
+- **Rating minimal**, misalnya: `7.5`
+
+Kemudain Program akan menyimpan atau menampilkan grafik berupa bar chart dan juga pie chart yang masuk ke dalam folder `img`.
 
 ---
 
@@ -62,5 +69,4 @@ Rekomendasi Film:
 1. John Wick (2014) - Rating: 8.0
 2. Mad Max: Fury Road (2015) - Rating: 7.9
 3. The Raid (2011) - Rating: 7.6
-
 ```
