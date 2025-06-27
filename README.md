@@ -1,6 +1,6 @@
-# 🎬 Sistem Rekomendasi Film ![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![Matplotlib](https://img.shields.io/badge/Matplotlib-Used-yellow) ![Status](https://img.shields.io/badge/Status-Selesai-green)
+# 🎬 Sistem Rekomendasi Film !
 
-Aplikasi Python berbasis terminal/CLI yang merekomendasikan film berdasarkan **genre favorit** dan **rating minimal**. Dilengkapi dengan visualisasi interaktif berupa **pie chart** dan **bar chart**.
+Aplikasi Python berbasis terminal atau CLI yang merekomendasikan film berdasarkan **genre favorit** dan **rating minimal**. Serta ada juga fitur visualisasi interaktif berupa **pie chart** dan **bar chart**.
 
 ---
 
@@ -10,8 +10,6 @@ Aplikasi Python berbasis terminal/CLI yang merekomendasikan film berdasarkan **g
 ✅ Rekomendasi berdasarkan genre & rating minimal  
 ✅ Hasil diurutkan berdasarkan rating tertinggi  
 ✅ Visualisasi jumlah & kualitas film per genre  
-✅ Penanganan error input (genre/rating/file)  
-✅ Struktur modular dan mudah dikembangkan  
 
 ---
 
@@ -19,15 +17,15 @@ Aplikasi Python berbasis terminal/CLI yang merekomendasikan film berdasarkan **g
 
 ```
 rekomendasi_film/
-├── main.py                # Program utama
-├── data_loader.py         # Memuat data dari CSV
-├── recommender.py         # Logika filter dan urutkan rekomendasi
-├── visual.py              # Visualisasi data dengan Matplotlib
+├── main.py                    # Program utama
+├── data_loader.py             # Memuat data dari CSV
+├── recommender.py             # Logika filter dan urutkan rekomendasi
+├── visual.py                  # Visualisasi menggunakan Matplotlib
 ├── data/
-│   └── film.csv           # Data film
+│   └── film.csv               # Data film berupa file CSV
 ├── img/
-│   ├── genre_pie.png
-│   └── genre_rating_bar.png
+│   ├── genre_pie.png          # Foto Pie Chart
+│   └── genre_rating_bar.png   # Foto Bar Chart
 └── README.md
 ```
 
@@ -43,7 +41,7 @@ rekomendasi_film/
 python main.py
 ```
 
-Jika belum install pustaka visualisasi:
+Jika belum install library matplotlib untuk visualisasi:
 
 ```bash
 pip install matplotlib
@@ -65,33 +63,4 @@ Rekomendasi Film:
 2. Mad Max: Fury Road (2015) - Rating: 7.9
 3. The Raid (2011) - Rating: 7.6
 
-Grafik disimpan di:
-- img/genre_pie.png
-- img/genre_rating_bar.png
 ```
-
----
-
-## 📊 Visualisasi
-
-- 🥧 **Pie Chart**: Jumlah film per genre
-- 📊 **Bar Chart**: Rata-rata rating per genre
-
-> Grafik otomatis disimpan saat program dijalankan.
-
----
-
-## 📌 Saran Pengembangan
-
-💡 Filter berdasarkan tahun rilis  
-💡 Rekomendasi multi-genre  
-💡 Export hasil rekomendasi ke file  
-💡 Antarmuka GUI (Tkinter) atau Web (Flask/Streamlit)  
-
----
-
-## 📃 Lisensi
-
-Proyek ini dibuat untuk tujuan pembelajaran. Bebas digunakan dan dimodifikasi. Tidak untuk dijual.
-
----
