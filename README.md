@@ -52,7 +52,7 @@ Setelah itu, memasukkan Genre dan Rating:
 - **Genre**, misalnya: `Aksi`
 - **Rating minimal**, misalnya: `7.5`
 
-Kemudain Program akan menyimpan atau menampilkan grafik berupa bar chart dan juga pie chart yang masuk ke dalam folder `img`.
+Kemudian program akan menyimpan atau menampilkan grafik berupa bar chart dan juga pie chart yang masuk ke dalam folder `img`.
 
 ---
 
@@ -70,3 +70,12 @@ Rekomendasi Film:
 2. Mad Max: Fury Road (2015) - Rating: 7.9
 3. The Raid (2011) - Rating: 7.6
 ```
+
+---
+
+## 👥 Anggota Kelompok
+
+- **ABIYU NEYAD MECCADA** (20240040200)  
+- **FAUZAN NURPADILAH** (20240040041)  
+- **MOCHAMAD RAMDHAN IRAWAN** (20240040199)  
+- **RIFALDI AKMAL FAUZAN** (20240040030)
